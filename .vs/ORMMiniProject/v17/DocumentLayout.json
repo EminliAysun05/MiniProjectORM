@@ -1,0 +1,1106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Migrations\\20240813160623_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240813160623_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\userdtos\\getallordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\userdtos\\getallordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\userdtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\userdtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invalidorderdetailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invalidorderdetailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\paymentdtos\\getpaymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\paymentdtos\\getpaymentsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\paymentdtos\\makepaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\paymentdtos\\makepaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\userreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\userreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\interfaces\\ipaymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\generic\\reposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\generic\\reposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\generic\\ireposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\generic\\ireposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\iproductreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\iproductreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\paymentreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\paymentreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\ipaymentreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\ipaymentreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\implementations\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\orderreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\orderreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\productreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\productreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\ordersdto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\ordersdto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\ordersdto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\ordersdto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\implementations\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\implementations\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\services\\interfaces\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:services\\interfaces\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\orderalreadycompletedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\orderalreadycompletedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\implementations\\orderdetailreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\implementations\\orderdetailreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\iorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\iorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\iorderreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\iorderreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\userdtos\\orderdtoforexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\userdtos\\orderdtoforexcel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\getallproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\getallproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\iuserreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\iuserreposity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invaliduserinformationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invaliduserinformationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\repostories\\interfaces\\generic\\inameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:repostories\\interfaces\\generic\\inameable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\userauthenticationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\orderalreadycancelledexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\orderalreadycancelledexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invalidproductexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invalidproductexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invalidpaymentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invalidpaymentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\exceptions\\invalidorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:exceptions\\invalidorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\ormminiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:ormminiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\searchproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\searchproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\dtos\\productdtos\\deleteproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:dtos\\productdtos\\deleteproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\utils\\constans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:utils\\constans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|c:\\users\\namjoon\\source\\repos\\ormminiproject\\models\\enums\\orderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECA8327A-7558-48B6-9A2A-3E06ECA33E4C}|ORMMiniProject.csproj|solutionrelative:models\\enums\\orderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240813160623_Init.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Migrations\\20240813160623_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240813160623_Init.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Migrations\\20240813160623_Init.cs",
+              "RelativeToolTip": "Migrations\\20240813160623_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T16:06:23.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\PaymentService.cs",
+              "RelativeToolTip": "Services\\Implementations\\PaymentService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:38:36.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:22:11.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:17:56.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:46:39.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\RegisterUserDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\RegisterUserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\RegisterUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:37:50.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\LoginUserDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\LoginUserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\LoginUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:37:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:38:10.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:46:30.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllOrdersDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\GetAllOrdersDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\GetAllOrdersDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\GetAllOrdersDto.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\GetAllOrdersDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:38:18.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:11:59.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:22:38.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvalidOrderDetailException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidOrderDetailException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidOrderDetailException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidOrderDetailException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidOrderDetailException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:59:27.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetPaymentsDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\PaymentDtos\\GetPaymentsDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PaymentDtos\\GetPaymentsDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\PaymentDtos\\GetPaymentsDto.cs",
+              "RelativeToolTip": "Dtos\\PaymentDtos\\GetPaymentsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:34:02.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MakePaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\PaymentDtos\\MakePaymentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PaymentDtos\\MakePaymentDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\PaymentDtos\\MakePaymentDto.cs",
+              "RelativeToolTip": "Dtos\\PaymentDtos\\MakePaymentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:32:56.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\UserReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\UserReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\UserReposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\UserReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T11:57:27.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPaymentServices.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IPaymentServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPaymentServices.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IPaymentServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPaymentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:38:12.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Reposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\Generic\\Reposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\Generic\\Reposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\Generic\\Reposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\Generic\\Reposity.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T19:05:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\Generic\\IReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\Generic\\IReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\Generic\\IReposity.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\Generic\\IReposity.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T19:00:09.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IProductReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IProductReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\IProductReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IProductReposity.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\IProductReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T18:40:06.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\PaymentReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\PaymentReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\PaymentReposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\PaymentReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:36:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPaymentReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IPaymentReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\IPaymentReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IPaymentReposity.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\IPaymentReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:36:32.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\OrderService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "Services\\Implementations\\OrderService.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAkwA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:54:49.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:55:12.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:17:49.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\OrdersDto\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\OrdersDto\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\OrdersDto\\OrderDto.cs",
+              "RelativeToolTip": "Dtos\\OrdersDto\\OrderDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:26:01.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:17:42.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\OrdersDto\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\OrdersDto\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\OrdersDto\\OrderDetailDto.cs",
+              "RelativeToolTip": "Dtos\\OrdersDto\\OrderDetailDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:26:09.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:18:01.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\ProductReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\ProductReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\ProductReposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\ProductReposity.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T10:05:59.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\OrderReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\OrderReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\OrderReposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\OrderReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:45:36.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\OrderDetailService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Implementations\\OrderDetailService.cs",
+              "RelativeToolTip": "Services\\Implementations\\OrderDetailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:54:58.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IOrderDetailService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Services\\Interfaces\\IOrderDetailService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IOrderDetailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:55:21.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderAlreadyCompletedException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\OrderAlreadyCompletedException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\OrderAlreadyCompletedException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\OrderAlreadyCompletedException.cs",
+              "RelativeToolTip": "Exceptions\\OrderAlreadyCompletedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:42:52.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderDetailReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\OrderDetailReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Implementations\\OrderDetailReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Implementations\\OrderDetailReposity.cs",
+              "RelativeToolTip": "Repostories\\Implementations\\OrderDetailReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:53:14.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IOrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IOrderDetail.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\IOrderDetail.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IOrderDetail.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\IOrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:51:33.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IOrderReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IOrderReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\IOrderReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IOrderReposity.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\IOrderReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:45:19.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\OrderDetailConfiguration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeToolTip": "Configurations\\OrderDetailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T18:34:21.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetAllProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\GetAllProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\GetAllProductDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\GetAllProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\GetAllProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:40.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderDtoForExcel.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\OrderDtoForExcel.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDtos\\OrderDtoForExcel.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\UserDtos\\OrderDtoForExcel.cs",
+              "RelativeToolTip": "Dtos\\UserDtos\\OrderDtoForExcel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T12:38:33.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PaymentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\PaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\PaymentConfiguration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\PaymentConfiguration.cs",
+              "RelativeToolTip": "Configurations\\PaymentConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:58:19.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserReposity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IUserReposity.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\IUserReposity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\IUserReposity.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\IUserReposity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T11:57:06.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InvalidLoginException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidLoginException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidLoginException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidLoginException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidLoginException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T15:30:32.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "InvalidUserInformationException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidUserInformationException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidUserInformationException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidUserInformationException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidUserInformationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:58:59.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\AddProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\AddProductDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\AddProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\AddProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:02.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "INameable.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\Generic\\INameable.cs",
+              "RelativeDocumentMoniker": "Repostories\\Interfaces\\Generic\\INameable.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Repostories\\Interfaces\\Generic\\INameable.cs",
+              "RelativeToolTip": "Repostories\\Interfaces\\Generic\\INameable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T10:29:06.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:17:09.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:12.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetProductByIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:42:05.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserAuthenticationException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\UserAuthenticationException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UserAuthenticationException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\UserAuthenticationException.cs",
+              "RelativeToolTip": "Exceptions\\UserAuthenticationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:59:09.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "OrderAlreadyCancelledException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\OrderAlreadyCancelledException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\OrderAlreadyCancelledException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\OrderAlreadyCancelledException.cs",
+              "RelativeToolTip": "Exceptions\\OrderAlreadyCancelledException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:58:39.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:58:17.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "InvalidProductException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidProductException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidProductException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidProductException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidProductException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:58:10.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "InvalidPaymentException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidPaymentException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidPaymentException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidPaymentException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidPaymentException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:59:17.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "InvalidOrderException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidOrderException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidOrderException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Exceptions\\InvalidOrderException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidOrderException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:58:26.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ORMMiniProject.csproj",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\ORMMiniProject.csproj",
+              "RelativeDocumentMoniker": "ORMMiniProject.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\ORMMiniProject.csproj",
+              "RelativeToolTip": "ORMMiniProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T09:57:35.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "SearchProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\SearchProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\SearchProductDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\SearchProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\SearchProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:54.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DeleteProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\DeleteProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ProductDtos\\DeleteProductDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Dtos\\ProductDtos\\DeleteProductDto.cs",
+              "RelativeToolTip": "Dtos\\ProductDtos\\DeleteProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:25.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\Common\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:16:24.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Constans.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Utils\\Constans.cs",
+              "RelativeDocumentMoniker": "Utils\\Constans.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Utils\\Constans.cs",
+              "RelativeToolTip": "Utils\\Constans.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T19:18:50.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "Contexts\\AppDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T19:08:34.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T18:27:16.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "Configurations\\OrderConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T18:19:43.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "Configurations\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:57:21.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "OrderStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Enums\\OrderStatusEnum.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\OrderStatusEnum.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ORMMiniProject\\Models\\Enums\\OrderStatusEnum.cs",
+              "RelativeToolTip": "Models\\Enums\\OrderStatusEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:52:31.516Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
