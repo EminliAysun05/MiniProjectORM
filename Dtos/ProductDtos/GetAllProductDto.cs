@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ORMMiniProject.Dtos.ProductDtos
 {
-    public class GetAllProductDro
+    public class GetAllProductDto
     {
         public int Id { get; set; }
         public string Name { get; set; } = null!;

@@ -28,7 +28,7 @@ namespace ORMMiniProject.Services.Implementations
 
             await _productReposity.AddAsync(product);
 
-
+            await _productReposity.SaveChangesAsync();
 
 
         }
@@ -45,11 +45,11 @@ namespace ORMMiniProject.Services.Implementations
 
         }
 
-        public async Task<List<GetAllProductDro>> GetAllProductsAsync()
+        public async Task<List<GetAllProductDto>> GetAllProductsAsync()
         {
             var products = await _productReposity.GetAllAsync();
 
-            var productDtos = products.Select(p => new GetAllProductDro
+            var productDtos = products.Select(p => new GetAllProductDto
 
             {
                 Id = p.Id,
@@ -78,11 +78,11 @@ namespace ORMMiniProject.Services.Implementations
             };
         }
 
-        public async Task<List<GetAllProductDro>> SearchProductAsync(string name)
+        public async Task<List<GetAllProductDto>> SearchProductAsync(string name)
         {
             var products = await _productReposity.GetFilterAsync(x => x.Name.Contains(name));
             //nullWhiteSpace yoxlaaaa
-            return products.Select(p => new GetAllProductDro
+            return products.Select(p => new GetAllProductDto
             {
                 Id = p.Id,
                 Name = p.Name,

@@ -62,6 +62,7 @@ public class UserService : IUserService
     public async Task RegisterUserAsync(RegisterUserDto registeredUser)
     {
         if (registeredUser == null) //isvalidregistered
+
         {
             throw new InvalidUserInformationException("The information of user is not true");
         }
@@ -81,7 +82,9 @@ public class UserService : IUserService
             Password = registeredUser.Password,
             Address = registeredUser.Address
         };
+
         await _repository.AddAsync(user);
+        await _repository.SaveChangesAsync();
     }
 
     public async Task UpdateUser(UpdateUserDto updateUser)

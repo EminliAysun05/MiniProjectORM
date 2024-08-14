@@ -57,3 +57,11 @@ C:\Users\namjoon\source\repos\ORMMiniProject\obj\Debug\net6.0\refint\ORMMiniProj
 C:\Users\namjoon\source\repos\ORMMiniProject\obj\Debug\net6.0\ORMMiniProject.pdb
 C:\Users\namjoon\source\repos\ORMMiniProject\obj\Debug\net6.0\ORMMiniProject.genruntimeconfig.cache
 C:\Users\namjoon\source\repos\ORMMiniProject\obj\Debug\net6.0\ref\ORMMiniProject.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\obj\Debug\net6.0\ORMMiniProject.sourcelink.json
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\Irony.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\namjoon\source\repos\ORMMiniProject\bin\Debug\net6.0\XLParser.dll

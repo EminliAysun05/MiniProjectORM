@@ -177,8 +177,8 @@ namespace ORMMiniProject.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(8)
-                        .HasColumnType("nvarchar(8)");
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
 

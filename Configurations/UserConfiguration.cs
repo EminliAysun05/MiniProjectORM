@@ -15,7 +15,7 @@ namespace ORMMiniProject.Configurations
         {
             builder.Property(u => u.FullName).IsRequired(true).HasMaxLength(50);
             builder.Property(u => u.Email).IsRequired(true).HasMaxLength(50);
-            builder.Property(u => u.Password).IsRequired(true).HasMaxLength(8);
+            builder.Property(u => u.Password).IsRequired(true).HasMaxLength(256);
             builder.Property(u => u.Address).IsRequired(true).HasMaxLength(100);
 
 
