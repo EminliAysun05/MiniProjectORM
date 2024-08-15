@@ -17,5 +17,7 @@ namespace ORMMiniProject.Dtos.OrdersDto
    
         public OrderStatusEnum OrderStatus { get; set; }
 
+        public ICollection<OrderDetail> Details { get; set; } = null!;
+
     }
 }

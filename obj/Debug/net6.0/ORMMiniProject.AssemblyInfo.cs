@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ORMMiniProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447690efa6be9302d90cc478ba01634e4ec73b20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca6bcd2d14c8ccdeb3791f8f4bc7d517d5f6cd13")]
 [assembly: System.Reflection.AssemblyProductAttribute("ORMMiniProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ORMMiniProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

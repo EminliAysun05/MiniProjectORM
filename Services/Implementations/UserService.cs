@@ -105,6 +105,11 @@ public class UserService : IUserService
 
     }
 
+    internal async Task<IEnumerable<object>> GetAllOrdersAsync()
+    {
+        throw new NotImplementedException();
+    }
+
 
 
     //public async void GetByName(string search)

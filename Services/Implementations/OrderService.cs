@@ -17,17 +17,26 @@ namespace ORMMiniProject.Services.Implementations
     {
         private readonly IOrderReposity _orderReposity;
         private readonly IUserReposity _reposity;
-        
+        private readonly IOrderDetailRepository _orderDetailRepository;
+        private readonly IProductReposity _productReposity;
+
         public OrderService()
         {
             _orderReposity = new OrderReposity();
             _reposity = new UserReposity();
+            _productReposity = new ProductReposity();
+            _orderDetailRepository = new OrderDetailReposity();
 
         }
 
         public async Task AddOrderDetails(OrderDetailDto orderDetailDto)
         {
-            if (orderDetailDto.Quantity < 0 )
+
+            if (orderDetailDto == null)
+            {
+                throw new NullReferenceException("Order detail cannot be null.");
+            }
+            if (orderDetailDto.Quantity < 0)
             {
                 throw new InvalidOrderDetailException("The quantity of order shouldn't be lower tahn 0");
             }
@@ -36,38 +45,42 @@ namespace ORMMiniProject.Services.Implementations
                 throw new InvalidOrderDetailException("The price of order shouldn't be lower tahn zero");
             }
             var order = await _orderReposity.GetSingleAsync(o => o.Id == orderDetailDto.OrderId);
-            if(order == null)
+            if (order == null)
             {
                 throw new NotFoundException("Order is not found");
             }
-            var product = await _orderReposity.GetSingleAsync(o => o.Id == orderDetailDto.ProductId);
-            if(product == null)
+            var product = await _productReposity.GetSingleAsync(o => o.Id == orderDetailDto.ProductId);
+            if (product == null)
             {
                 throw new NotFoundException("Order is not found");
             }
+            order.TotalAmount = product.Price * orderDetailDto.Quantity;
             var OrderDetail = new OrderDetail
             {
                 OrderId = orderDetailDto.OrderId,
                 ProductId = orderDetailDto.ProductId,
-                PricePerItem = orderDetailDto.PricePerItem,
+                PricePerItem = product.Price,
                 Product = orderDetailDto.Product,
-                Order = orderDetailDto.Order
+                Order = orderDetailDto.Order,
+                Quantity=orderDetailDto.Quantity
 
 
             };
-           order.Details.Add(OrderDetail);
-         
+            //_orderReposity.Update(order);
+            await _orderDetailRepository.AddAsync(OrderDetail);
+            await _orderDetailRepository.SaveChangesAsync();
+
             await _orderReposity.SaveChangesAsync();
         }
 
         public async Task CompleteOrderAsync(int id)
         {
-           var order = await _orderReposity.GetSingleAsync(o => o.Id == id);
-            if(order == null)
+            var order = await _orderReposity.GetSingleAsync(o => o.Id == id);
+            if (order == null)
             {
                 throw new NotFoundException("Order is not found");
             }
-            if(order.OrderStatus == OrderStatusEnum.Completed)
+            if (order.OrderStatus == OrderStatusEnum.Completed)
             {
                 throw new OrderAlreadyCompletedException("Orders= is already completed");
             }
@@ -77,40 +90,69 @@ namespace ORMMiniProject.Services.Implementations
 
         public async Task CreateOrderAsync(OrderDto orderDto)
         {
-            if(orderDto.TotalAmount<0)
+
+            var user = await _reposity.GetSingleAsync(u => u.Id == orderDto.UserId);
+
+            if (user == null)
             {
-                throw new InvalidOrderException("Order shoulnd't lower tahn 0");
+                throw new NotFoundException("User not found");
             }
-            var user = await _orderReposity.GetSingleAsync(u => u.Id == orderDto.Id);
-            if(user == null)
-            {
-                throw new InvalidOrderDetailException("User is not found");
-            }
+
+            // if(orderDto.TotalAmount<0)
+            // {
+            //     throw new InvalidOrderException("Order shoulnd't lower tahn 0");
+            // }
+            // var user = await _reposity.GetSingleAsync(u => u.Id == orderDto.Id);
+
+            // if(user == null)
+            // {
+            //     throw new InvalidOrderDetailException("User is not found");
+            // }
+
+            decimal totalAmount = 0;
+            //foreach (var detail in orderDto.Details)
+            //{
+            //    var product = await _productReposity.GetSingleAsync(p => p.Id == detail.ProductId);
+            //    if (product == null)
+            //    {
+            //        throw new InvalidOrderDetailException($"Product with ID {detail.ProductId} is not found");
+            //    }
+
+            //    totalAmount += detail.Quantity * product.Price; // Burada qiyməti məhsuldan alırıq.
+            //}
+
+            //if (totalAmount < 0)
+            //{
+            //    throw new InvalidOrderException("Order total amount shouldn't be less than 0");
+            //}
+
             var order = new Order
             {
                 Id = orderDto.Id,
                 TotalAmount = orderDto.TotalAmount,
                 OrderStatus = orderDto.OrderStatus,
-                OrderDate = orderDto.OrderDate,
+                OrderDate = DateTime.UtcNow,
                 UserId = orderDto.UserId
+
             };
             await _orderReposity.AddAsync(order);
-           await  _orderReposity.SaveChangesAsync();
+            await _orderReposity.SaveChangesAsync();
         }
 
         public async Task DeleteOrderSync(int id)
         {
             var order = await _orderReposity.GetSingleAsync(o => o.Id == id);
-            if(order == null)
+            if (order == null)
             {
                 throw new NotFoundException("Order is not found");
             }
             //sifarisin legvi
-            if(order.OrderStatus==OrderStatusEnum.Cancelled)
+            if (order.OrderStatus == OrderStatusEnum.Cancelled)
             {
                 throw new OrderAlreadyCancelledException("Order is already cancelled");
             }
             order.OrderStatus = OrderStatusEnum.Cancelled;
+            _orderReposity.Update(order);
             await _orderReposity.SaveChangesAsync();
 
 
@@ -119,7 +161,7 @@ namespace ORMMiniProject.Services.Implementations
         public async Task<List<OrderDto>> GetAllOrders()
         {
             var orders = await _orderReposity.GetAllAsync();
-            return orders.Select(o => new  OrderDto
+            return orders.Select(o => new OrderDto
             {
                 Id = o.Id,
                 UserId = o.UserId,
@@ -129,12 +171,12 @@ namespace ORMMiniProject.Services.Implementations
             }).ToList();
         }
 
-      
 
-        public async  Task<List<OrderDetailDto>> GetOrderDetailsByOrderIdAsync(int orderId)
+
+        public async Task<List<OrderDetailDto>> GetOrderDetailsByOrderIdAsync(int orderId)
         {
-            var order = await _orderReposity.GetSingleAsync(o => o.Id ==orderId );
-            if(order == null)
+            var order = await _orderReposity.GetSingleAsync(o => o.Id == orderId);
+            if (order == null)
             {
                 throw new NotFoundException("Order is not found");
             }

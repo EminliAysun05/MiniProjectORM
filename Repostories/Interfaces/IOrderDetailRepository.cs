@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ORMMiniProject.Repostories.Interfaces
 {
-    public interface IOrderDetail:IReposity<OrderDetail>
+    public interface IOrderDetailRepository:IReposity<OrderDetail>
     {
     }
 }

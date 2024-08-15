@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ORMMiniProject.Repostories.Implementations
 {
-    public class OrderDetailReposity: Reposity<OrderDetail>,IOrderDetail
+    public class OrderDetailReposity: Reposity<OrderDetail>,IOrderDetailRepository
     {
     }
 }
