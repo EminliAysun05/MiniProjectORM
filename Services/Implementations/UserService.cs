@@ -105,7 +105,12 @@ public class UserService : IUserService
 
     }
 
-    internal async Task<IEnumerable<object>> GetAllOrdersAsync()
+    //public Task ViewAllUsers(UserService userService)
+    //{
+    //    throw new NotImplementedException();
+    //}
+
+    public async Task<IEnumerable<object>> GetAllOrdersAsync()
     {
         throw new NotImplementedException();
     }
